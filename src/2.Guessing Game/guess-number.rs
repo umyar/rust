@@ -2,7 +2,7 @@ use rand::Rng;
 use std::cmp::Ordering;
 use std::io::stdin;
 
-// will be mod (module) in fufure
+// will be mod (module) in future
 fn guess_number() {
     let secret_num = rand::thread_rng().gen_range(1..=100);
 
